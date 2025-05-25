@@ -64,7 +64,7 @@ try:
         st.sidebar.download_button(
             label="📥 Download Sample Resume",
             data=f,
-            file_name="sample_resume.pdf",
+            file_name="Sample_Resume.pdf",
             mime="application/pdf"
         )
 except FileNotFoundError:
