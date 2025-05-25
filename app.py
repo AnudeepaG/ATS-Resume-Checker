@@ -111,7 +111,7 @@ if uploaded_file and job_desc:
                 )
 
     st.divider()
-    st.subheader("📊 Keyword Density with Emojis")
+    st.subheader("📊 Keyword Density")
 
     density = keyword_density(resume_text, job_desc)
     fig = plot_keyword_density_chart(density)
