@@ -1,0 +1,43 @@
+.css-18e3th9 {
+            font-size: 28px;
+            color: #4B9CD3;
+            font-weight: bold;
+        }
+        .stButton>button {
+            background-color: #4B9CD3;
+            color: white;
+            border-radius: 12px;
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 10px 0;
+            transition: transform 0.2s, background-color 0.3s ease;
+        }
+        .stButton>button:hover {
+            background-color: #375A7F;
+            transform: scale(1.05);
+        }
+        .css-1d391kg {
+            border: 2px dashed #4B9CD3;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .response-box {
+            background-color: #f8f9fa;
+            color: black;
+            padding: 10px;
+            border-radius: 10px;
+            border-left: 6px solid #4B9CD3;
+            margin-top: 10px;
+            font-family: 'Arial', sans-serif;
+        }
+        .sidebar-title {
+            color: #4B9CD3;
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .sidebar-section {
+            margin-top: 20px;
+            font-size: 15px;
+            line-height: 1.6;
+        }

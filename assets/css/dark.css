@@ -1,0 +1,32 @@
+.css-18e3th9 {
+            font-size: 28px;
+            color: #DCA06D;
+            font-weight: bold;
+        }
+            .stButton>button {
+            background-color: #02414E;
+            color: white;
+            border-radius: 12px;
+            padding: 10px 10px;
+            font-size: 16px;
+            margin: 10px 0;
+            transition: transform 0.2s, background-color 0.3s ease;
+        }
+        .stButton>button:hover {
+            background-color: #337988;
+            transform: scale(1.05);
+        }
+        .css-1d391kg {
+            border: 2px dashed #4B9CD3;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .response-box {
+            background-color: #DCA06D;
+            color: black;
+            padding: 10px;
+            border-radius: 10px;
+            border-left: 6px solid #1F7D53;
+            margin-top: 10px;
+            font-family: 'Arial', sans-serif;
+        }
