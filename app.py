@@ -12,8 +12,8 @@ from src.config import *
 from src.utils import *
 from src.analysis import *
 from src.visualization import *
-
-# Rest of your existing code...
+# Define the PDF path
+RESUME_PATH = Path(__file__).parent / "Sample_Resume.pdf"
 
 def load_css(file_path):
     with open(file_path, "r") as f:
@@ -59,8 +59,9 @@ with col2:
 # --- Sidebar ---
 st.sidebar.subheader("📋 Sample Job Description")
 st.sidebar.code(SAMPLE_JD, language="markdown")
+
 try:
-    with open("sample_resume.pdf", "rb") as f:
+    with open(RESUME_PATH, "rb") as f:
         st.sidebar.download_button(
             label="📥 Download Sample Resume",
             data=f,
@@ -68,7 +69,8 @@ try:
             mime="application/pdf"
         )
 except FileNotFoundError:
-    st.sidebar.warning("Sample resume PDF not found. Upload 'sample_resume.pdf' to enable download.")
+    st.sidebar.error(f"File not found at: {RESUME_PATH}")
+    st.sidebar.write("Current directory contents:", os.listdir(Path(__file__).parent))
 
 if st.sidebar.button("🔄 Use Sample Job Description"):
     st.session_state['job_desc'] = SAMPLE_JD
