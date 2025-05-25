@@ -2,7 +2,7 @@
 
 An AI-powered tool to optimize resumes for Applicant Tracking Systems (ATS) using NLP and Gemini AI.
 
-[![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://resume-analyzer.streamlit.app/)
+[![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ats-resume-checker-dfhz.onrender.com/)
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
