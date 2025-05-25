@@ -6,6 +6,18 @@ An AI-powered tool to optimize resumes for Applicant Tracking Systems (ATS) usin
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
+resume-analyzer/  
+├── app.py                # Main Streamlit application  
+├── Sample_Resume.pdf     # Example resume for testing  
+├── requirements.txt      # Dependencies  
+├── assets/               # Static files  
+│   ├── css/              # Custom styles  
+│   └── images/           # Screenshots/logo  
+└── src/                  # Core logic  
+    ├── config.py         # Constants & settings  
+    ├── analysis.py       # NLP processing  
+    └── visualization.py  # Charts & reports  
+
 ## ✨ Features
 
 - 🔍 **ATS Compatibility Score** - Checks resume against job descriptions
