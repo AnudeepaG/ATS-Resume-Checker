@@ -32,7 +32,7 @@ def load_lottieurl(url: str):
 
 def get_gemini_response(prompt, pdf_text, job_description):
     genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
-    model = genai.GenerativeModel('gemini-1.5-flash')
+    model = genai.GenerativeModel('gemini-2.5-pro')
     full_prompt = f"{prompt}\n\nResume:\n{pdf_text}\n\nJob Description:\n{job_description}"
     response = model.generate_content(full_prompt)
     return response.text.strip()
